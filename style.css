@@ -1,5 +1,30 @@
-nav {
+html {
+    /* Positioning */
+    position: relative;
+  
+    /* Box-model */
+    min-height: 100%;
+  }
+
+.block {  
+    padding: 100px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-image: linear-gradient(to right, black, grey);
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    /* Positioning */
+    position: absolute;
+    bottom: 0;
+    /* Box-model */
+    width: 100%;
+    height: 60px;
+}
+
+.footer_paragraph {
+    color: white;
+    padding: 10px;
 }
