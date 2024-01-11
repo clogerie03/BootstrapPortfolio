@@ -6,6 +6,19 @@ html {
     min-height: 100%;
   }
 
+  #me {
+    text-decoration: none;
+    color: white;
+}
+
+  .navbar {
+    background-image: linear-gradient(to right, black, grey);
+  }
+
+  .nav-item a, .me  {
+    color: white;
+  }
+
 .block {  
     padding: 100px;
     margin-bottom: 30px;

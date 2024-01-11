@@ -1,0 +1,44 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+#me {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+   background-image: linear-gradient(to right, black, grey);
+}
+
+.nav-item a, .me  {
+   color: white;
+}
+
+.block {  
+    padding: 100px;
+    margin-bottom: 30px;
+}
+
+#row1, #row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer {
+    background-image: linear-gradient(to right, black, grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.footer_paragraph {
+    color: white;
+    padding: 10px;
+}
